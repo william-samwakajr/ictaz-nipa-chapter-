@@ -82,6 +82,7 @@ main div div div h1{
 main div div div p{
     font-weight: light;
     margin-bottom: 3rem;
+    font-size: 20px;
    }
 .hero-text{
     color: var(--secondary-color);
@@ -123,6 +124,9 @@ main div div div p{
     font-size: 20px;
 
 }
+.about-text-body{
+    font-size: 24px;
+}
 
 .about-image{
     max-width: 50%;
@@ -159,6 +163,7 @@ main div div div p{
     align-items: center;
 }
 .event-calendar{
+    min-height: 65rem;
     background-color: var(--secondary-color);
 }
 .calendar-container{
