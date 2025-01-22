@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-color:white;
+    --secondary-color:#4E5FBB;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter", serif;
+}
+
+
+header{
+    max-width: 100%;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    box-shadow: 0.05rem 0.01rem 0.3rem;
+    
+}
+
+header div img {
+    max-width: 6.5rem;
+}
+header div h1{
+    font-size :20px;
+}
+header nav{
+    max-width: 100%;
+    padding-right: 3rem ;
+}
+header nav ul{
+    list-style: none;
+    display:flex
+}
+header nav ul li{
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:active{
+    color: var(--secondary-color);
+}
+
+
+header nav ul li:last-child{
+    margin-left: 2.5rem;
+    margin-right: 0;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    color: white;
+    border: solid 0.2rem var(--secondary-color);
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div div div img{
+    max-width: 90%;
+}
+.hero-container{
+    min-height: 50rem;
+    
+}
+main div div div{
+ margin: 2rem;
+}
+main div div div h1{
+    margin-bottom: 2rem;
+    font-size: 48px;
+    font-weight: bold;
+   }
+main div div div p{
+    font-weight: light;
+    margin-bottom: 3rem;
+   }
+.hero-text{
+    color: var(--secondary-color);
+    max-width: 40%;
+}
+.hero-image{
+    max-width: 45%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section{
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading{
+    max-width: 100%;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading-text{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 2rem;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25rem;
+}
+.about-text{
+    max-width: 45%;
+    margin:2rem;
+    font-size: 20px;
+
+}
+
+.about-image{
+    max-width: 50%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-image{
+    max-width: 90%;
+}
+.blue-section{
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.meet-the-executive{
+    color: var(--secondary-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-the-executive-heading-text{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 2rem;
+
+}
+.executive-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-calendar{
+    background-color: var(--secondary-color);
+}
+.calendar-container{
+    min-height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+.calendar{
+    width: 100%;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+.event-adder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-calender-heading{
+    width: 50%;
+    min-height: 15rem;
+    background-color:#D9D9D9 ;
+}
+.blank{
+ width: 50%;
+ min-height: 15rem;
+ background-color: #D9D9D9;
+}
