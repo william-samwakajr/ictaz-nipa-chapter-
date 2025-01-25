@@ -64,6 +64,7 @@ header nav ul li:last-child{
     justify-content: center;
     align-items: center;
 }
+.sidebar{}
 main div div div img{
     max-width: 90%;
 }
@@ -349,4 +350,123 @@ main div div div a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width:800px) {
+    header div h1{
+        display: none;
+    }
+    header div img{
+        max-width: 3.5rem;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-text{
+        max-width: 100%;
+    }
+    .hero-text .heading{
+        font-size: 24px;
+    }
+    .hero-text p{
+        font-size: 16px;
+    }
+    .hero-image{
+        max-width: 100%;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-text{
+        max-width: 100%;
+        padding: 0.1rem;
+        margin: 0.2rem;
+    }
+    .about-text p{
+        font-size: 16px;
+        padding: 0;
+    }
+    .about-heading-text{
+        font-size: 32px;
+        margin:0.3rem;
+        margin-top: 1rem;
+    }
+    .about-heading{
+        margin:0.3rem;
+    }
+    .about-image{
+        max-width: 100%;
+    }
+    .executive-image-section{
+        flex-direction: column;
+    }
+    .executve-image1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .executive-image2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meet-the-executive-body-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meet-the-executive-heading-text{
+        font-size: 24px;
+    }
+    .event-adder{
+        flex-direction: column;
+    }
+    .event-calender-heading{
+        width: 90%;
+    }
+    .blank{
+        width: 90%;
+    }
+    .event-heading-text{
+        font-size: 24px;
+    }
+    .type-container{
+        flex-direction: column;
+    }
+    .box{
+        max-width: 100%;
+    }
+    .event-calendar{
+        min-height: 137rem;
+    }
+    .project-container{
+        flex-direction: column;
+    }
+    .project-thumbnail{
+        width: 90%;
+    }
+    .project-details{
+        width: 100%;
+        padding: 1rem;
+    }
+    .div-project-links{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contact-us-content-section{
+        flex-direction: column;
+    }
+    .get-in-touch{
+        max-width:100%;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .socials{
+        width: 100%;
+    }
+    .quick-links{
+        width: 100%;
+    }
 }
