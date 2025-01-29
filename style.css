@@ -9,62 +9,96 @@
     margin: 0;
     font-family: "inter", serif;
 }
-
-
-header{
-    max-width: 100%;
-    min-height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
-    box-shadow: 0.05rem 0.01rem 0.3rem;
-    
+nav { 
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+    min-height: 4.5rem;
 }
 
-header div img {
+nav div img {
     max-width: 6.5rem;
 }
-header div h1{
+nav div h1{
     font-size :20px;
 }
-header nav{
+
+
+nav ul{
     max-width: 100%;
-    padding-right: 3rem ;
-}
-header nav ul{
     list-style: none;
-    display:flex
-}
-header nav ul li{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+} nav ul li{
     padding-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header nav ul li a{
+ nav ul li a{
+
     text-decoration: none;
     color: black;
 }
-header nav ul li a:active{
+nav ul li a:active{
     color: var(--secondary-color);
 }
 
 
-header nav ul li:last-child{
+ .mainbar li:nth-child(6){
     margin-left: 2.5rem;
-    margin-right: 0;
+    margin-right: 1rem;
     padding: 0.5rem 0.8rem;
     border-radius: 2rem;
     color: white;
     border: solid 0.2rem var(--secondary-color);
 }
-
+nav ul li:first-child{
+    margin-right: auto;
+}
+svg{
+    fill: black;
+}
+.mainbar li:last-child{
+    display: none;
+   
+}
 .logo-section{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sidebar{}
+.sidebar{
+    
+    background-color: white;
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width: 250px;
+    z-index:999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li {
+    height: 5%;
+    width: 100%;
+}
+.sidebar li a{
+    width: 100%;
+}
+.sidebar li svg{
+    width: 100%;
+}
+.sidebar li:first-child{
+    display: none;
+}
+.sidebar li:last-child{
+    width: 50%;
+   
+}
 main div div div img{
     max-width: 90%;
 }
@@ -353,11 +387,25 @@ main div div div a{
 }
 
 @media(max-width:800px) {
-    header div h1{
+    .mainbar li:nth-child(2) {
         display: none;
     }
-    header div img{
-        max-width: 3.5rem;
+    .mainbar li:nth-child(3) {
+        display: none;
+    }
+    .mainbar li:nth-child(4) {
+        display: none;
+    }
+    .mainbar li:nth-child(5) {
+        display: none;
+    }
+    .mainbar li:nth-child(6) {
+        display: none;
+    }
+    .mainbar li:last-child{
+        display: block;
+        margin :1rem;
+       
     }
     .hero-section{
         flex-direction: column;
